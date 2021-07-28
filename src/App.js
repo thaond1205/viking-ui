@@ -20,7 +20,7 @@ function App() {
     if(!localStorage.getItem('token')){
       return(
         // <div class="alert alert-danger" role="alert" style={{textAlign: 'center'}}>
-        //    <h2> Bạn chưa đăng nhập! Bạn cần phải đăng nhập để sử dụng các chức năng!</h2>
+        //    <h2> Hãy đăng nhập đi thằng này! Bạn cần phải đăng nhập để sử dụng các chức năng!</h2>
         // </div>
         <Login onChangeLogin={(value) => changeLogin(value)}/>
       )
